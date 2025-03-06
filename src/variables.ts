@@ -24,11 +24,11 @@ let image: string = "https://d3jkudlc7u70kh.cloudfront.net/rabbit-fun-facts.jpg"
  * 2. ageString           -> assign it: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
-let currentDate = new Date();
-let currentYear = currentDate.getFullYear();
+const date = new Date();
+const year = date.getFullYear();
 
 let fullNameString: string = `My name is ${fullName}`;
-let ageString: string = `I am ${currentYear - yearOfBirth}`;
+let ageString: string = `I am ${year - yearOfBirth}`;
 let hobbyString: string = `My hobby is ${hobby}`;
 
 /**
@@ -40,16 +40,23 @@ let hackerScore = 0;
 
 function incrementBy1() {
   // Increment hackerScore by 1 👇🏻
+  hackerScore++;
 }
 function decrementBy1() {
   // decrement hackerScore by 1 👇🏻
+  hackerScore--;
+
 }
 
 function incrementBy2() {
   // Increment hackerScore by 2 👇🏻
+  hackerScore++;
+  hackerScore++;
 }
 function decrementBy2() {
   // decrement hackerScore by 2 👇🏻
+  hackerScore--;
+  hackerScore--;
 }
 
 // Ignore this part (:

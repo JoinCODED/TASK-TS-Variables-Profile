@@ -9,11 +9,12 @@
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
 
-let fullName: string;
-let yearOfBirth: number;
-let hobby: string;
-let funFact: string;
-let image: string;
+let fullName: string = "Raghad & Maarij";
+let yearOfBirth: number = 1997;
+let hobby: string = "Photography";
+let funFact: string = "I get bullied by my nephew";
+let image: string =
+  "https://memeart.com.au/cdn/shop/products/DSC01158_2048x.jpg?v=1578829565";
 
 /**
  * Part 2: String Interpolation
@@ -24,10 +25,10 @@ let image: string;
  * 2. ageString           -> assign it: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
-
-let fullNameString: string;
-let ageString: string;
-let hobbyString: string;
+const d: Date = new Date();
+let fullNameString: string = `My name is ${fullName}`;
+let ageString: string = `I am ${d.getFullYear() - yearOfBirth}`;
+let hobbyString: string = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
@@ -37,16 +38,20 @@ let hobbyString: string;
 let hackerScore = 0;
 
 function incrementBy1() {
+  return hackerScore++;
   // Increment hackerScore by 1 👇🏻
 }
 function decrementBy1() {
+  return hackerScore--;
   // decrement hackerScore by 1 👇🏻
 }
 
 function incrementBy2() {
+  return (hackerScore += 2);
   // Increment hackerScore by 2 👇🏻
 }
 function decrementBy2() {
+  return (hackerScore -= 2);
   // decrement hackerScore by 2 👇🏻
 }
 

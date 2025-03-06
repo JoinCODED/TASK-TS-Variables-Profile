@@ -15,6 +15,7 @@ let hobby: string = "Camping";
 let funFact: string =
   "Was ranked 5th best boxer in Asia within my age group when I was 14";
 let image: string = "https://ibb.co/4Zv34sH8";
+const currentYear = new Date().getFullYear();
 
 /**
  * Part 2: String Interpolation
@@ -27,7 +28,7 @@ let image: string = "https://ibb.co/4Zv34sH8";
  */
 
 let fullNameString: string = `My name is ${fullName}`;
-let ageString: string = `I am ${2025 - yearOfBirth}`;
+let ageString: string = `I am ${currentYear - yearOfBirth}`;
 let hobbyString: string = `My hobby is ${hobby}`;
 
 /**

@@ -15,6 +15,12 @@ let hobby: string;
 let funFact: string;
 let image: string;
 
+fullName = "Bashayer";
+yearOfBirth = 1995;
+hobby = "Gaming";
+funFact = "I love cats";
+image = "";
+
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
@@ -29,6 +35,10 @@ let fullNameString: string;
 let ageString: string;
 let hobbyString: string;
 
+fullNameString = "My name is Bashayer AlKhaldi";
+ageString = "I am 29";
+hobbyString = "My hobby is Gaming";
+
 /**
  * Part 3: Re-assignment
  * Increment your hacker score
@@ -38,16 +48,20 @@ let hackerScore = 0;
 
 function incrementBy1() {
   // Increment hackerScore by 1 👇🏻
+  hackerScore += 1;
 }
 function decrementBy1() {
   // decrement hackerScore by 1 👇🏻
+  hackerScore -= 1;
 }
 
 function incrementBy2() {
   // Increment hackerScore by 2 👇🏻
+  hackerScore += 2;
 }
 function decrementBy2() {
   // decrement hackerScore by 2 👇🏻
+  hackerScore -= 2;
 }
 
 // Ignore this part (:

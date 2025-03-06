@@ -15,6 +15,12 @@ let hobby: string;
 let funFact: string;
 let image: string;
 
+fullName = "Abdullah Mishari and Zainab Alhallaq";
+yearOfBirth = 1999;
+hobby = "Gaming and Designing";
+funFact = "The Sky is Blue";
+image = "C:UsersaligbDevelopmentTASK-TS-Variables-Profilesrc\nature.jpg";
+
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate

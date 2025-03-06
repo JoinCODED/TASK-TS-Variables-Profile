@@ -15,6 +15,12 @@ let hobby: string;
 let funFact: string;
 let image: string;
 
+fullName = "Abdullah Mishari and Zainab Alhallaq";
+yearOfBirth = 1999;
+hobby = "Gaming and Designing";
+funFact = "The Sky is Blue";
+image = "C:UsersaligbDevelopmentTASK-TS-Variables-Profilesrc\nature.jpg";
+
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
@@ -29,6 +35,13 @@ let fullNameString: string;
 let ageString: string;
 let hobbyString: string;
 
+fullNameString = `Our names are ${fullName}`;
+
+let age: number;
+age = 2025 - yearOfBirth;
+ageString = `I am ${age}`;
+
+hobbyString = `My hobbies is ${hobby}`;
 /**
  * Part 3: Re-assignment
  * Increment your hacker score

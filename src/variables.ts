@@ -26,9 +26,9 @@ let image: string =
  * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
 
-let fullNameString: string = "My name is ${fullName}";
-let ageString: string = "I am ${2025 - yearOfBirth}";
-let hobbyString: string = "My hobby is ${hobby}";
+let fullNameString: string = `My name is ${fullName}`;
+let ageString: string = `I am ${2025 - yearOfBirth}`;
+let hobbyString: string = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment

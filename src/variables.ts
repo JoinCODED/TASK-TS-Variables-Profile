@@ -24,10 +24,11 @@ let image: string ="https://th.bing.com/th?id=OIP.GqGVPkLpUlSo5SmeDogUdwHaHa&w=2
  * 2. ageString           -> assign it: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
-
+const d : Date = new Date();
 let fullNameString: string = `My name is ${fullName}`;
-let ageString: string = `I am 24`;
-let hobbyString: string = `My hooby is ${hobby}`;
+
+let ageString: string = `I am ${d.getFullYear() - yearOfBirth}`;
+let hobbyString: string = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment

@@ -35,6 +35,13 @@ let fullNameString: string;
 let ageString: string;
 let hobbyString: string;
 
+fullNameString = `Our names are ${fullName}`;
+
+let age: number;
+age = 2025 - yearOfBirth;
+ageString = `I am ${age}`;
+
+hobbyString = `My hobbies is ${hobby}`;
 /**
  * Part 3: Re-assignment
  * Increment your hacker score

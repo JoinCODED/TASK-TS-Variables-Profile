@@ -10,7 +10,7 @@
  */
 
 let fullName: string = "Ahmed Al-Mohammed";
-let yearOfBirth: number = 10 / 1 / 1998;
+let yearOfBirth: number = 1998;
 let hobby: string = "Riding dirtbikes and mechanical work";
 let funFact: string = " I love mangos";
 let image: string =
@@ -27,9 +27,8 @@ let image: string =
  */
 
 let fullNameString: string = `My name is ${fullName}`;
-let ageString: string = `I am ${Date.now() - yearOfBirth}`;
+let ageString: string = `I am ${new Date().getFullYear() - yearOfBirth}`;
 let hobbyString: string = `My hobby is ${hobby}`;
-
 /**
  * Part 3: Re-assignment
  * Increment your hacker score

@@ -9,7 +9,7 @@
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
 
-let fullName: string;
+let fullName: string = "Zainab Alarbash & Fatemah Alattar";
 let yearOfBirth: number;
 let hobby: string;
 let funFact: string;

@@ -22,21 +22,11 @@ funFact = "curious";
 image =
   "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.planetware.com%2Fpictures%2Ffrance-f.htm&psig=AOvVaw3aJQnHoBy-XK-PBrG0u3Em&ust=1752596548321000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiNlofhvI4DFQAAAAAdAAAAABAE";
 
-/**
- * Part 2: String Interpolation
- * Create the following new variables that interpolate
- * the variables defined above into strings.
- *
- * 1. fullNameString      -> assign it: "My name is {fullName}""
- * 2. ageString           -> assign it: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
- * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
- */
 let currentYear = 2025;
 const your_Age = currentYear - yearOfBirth;
-let fullNameString = `my name is ${fullName}`;
-let ageString = `i am  ${yearOfBirth}`;
-let hobbyString = `my hobby is ${hobby}`;
-
+const fullNameString = `My name is ${fullName}`;
+const ageString = `I am ${your_Age}`;
+const hobbyString = `My hobby is ${hobby}`;
 /**
  * Part 3: Re-assignment
  * Increment your hacker score

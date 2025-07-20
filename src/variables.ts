@@ -15,6 +15,12 @@ let hobby: string;
 let funFact: string;
 let image: string;
 
+fullName = "Bashaier Khaled AlMeshaile";
+yearOfBirth = 1996;
+hobby = "Learning New Staff";
+funFact =
+  "Now, my brain has 100000 tabs open, and none of them are loading....";
+image = "My-image";
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
@@ -28,6 +34,12 @@ let image: string;
 let fullNameString: string;
 let ageString: string;
 let hobbyString: string;
+const myAge = 2025 - yearOfBirth;
+
+fullNameString = `My name is ${fullName}`;
+ageString = `I am ${myAge}`;
+hobbyString = `My hobby is ${hobby}`;
+console.log(`${fullNameString}.\nI am ${myAge}.\n${hobbyString}. `);
 
 /**
  * Part 3: Re-assignment

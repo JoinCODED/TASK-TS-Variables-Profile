@@ -50,16 +50,20 @@ let hackerScore = 0;
 
 function incrementBy1() {
   // Increment hackerScore by 1 👇🏻
+  hackerScore++;
 }
 function decrementBy1() {
   // decrement hackerScore by 1 👇🏻
+  hackerScore--;
 }
 
 function incrementBy2() {
   // Increment hackerScore by 2 👇🏻
+  hackerScore = hackerScore + 2;
 }
 function decrementBy2() {
   // decrement hackerScore by 2 👇🏻
+  hackerScore = hackerScore - 2;
 }
 
 // Ignore this part (:
